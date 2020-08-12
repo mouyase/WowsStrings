@@ -1,5 +1,5 @@
 {
-  "name": "wowsjson",
+  "name": "json",
   "version": "1.0.0",
   "main": "build.js",
   "license": "MIT"
