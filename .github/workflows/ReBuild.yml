@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Before rebuild
+    - name: Before Rebuild
       run: |
         sudo apt update
         sudo apt install gettext
