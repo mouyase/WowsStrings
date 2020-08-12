@@ -1,0 +1,6 @@
+{
+  "name": "wowsjson",
+  "version": "1.0.0",
+  "main": "build.js",
+  "license": "MIT"
+}
