@@ -18,10 +18,15 @@ jobs:
         sudo apt update
         sudo apt install gettext
         chomod +x ReBuildString.sh
+        chomod +x BuildJson.sh
 
+    - name: Setup Node.js
+      uses: actions/setup-node@v2.1.1
+      
     - name: ReBuild
       run: |
         ./ReBuildString.sh
+        ./BuildJson.sh
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
