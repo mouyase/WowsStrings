@@ -26,7 +26,26 @@ jobs:
     - name: ReBuild
       run: |
         ./ReBuildString.sh
-        ./BuildJson.sh
+        node build cs
+        node build de
+        node build en
+        node build es
+        node build es_mx
+        node build fr
+        node build it
+        node build ja
+        node build ko
+        node build nl
+        node build pl
+        node build pt
+        node build pt_br
+        node build ru
+        node build th
+        node build tr
+        node build uk
+        node build zh
+        node build zh_sg
+        node build zh_tw
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
